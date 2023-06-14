@@ -12,8 +12,8 @@
 <script>
     function counter() {
   setInterval(function() {
-        document.getElementById('body').innerHTML= parseFloat(document.getElementById('body').innerHTML)+0.01
-  }, 2571.42857143);
+        document.getElementById('body').innerHTML= (parseFloat(document.getElementById('body').innerHTML)+0.01).toFixed(2)
+  }, 2571.428);
 } // End
 
 counter()
