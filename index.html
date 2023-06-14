@@ -11,14 +11,8 @@
 
 <script>
     function counter() {
-  var i = 0;
-  // This block will be executed 100 times.
-
   setInterval(function() {
-    if (i == 100) {clearInterval(this);}
-    else {
         document.getElementById('body').innerHTML= parseFloat(document.getElementById('body').innerHTML)+0.01
-    };
   }, 2571.42857143);
 } // End
 
